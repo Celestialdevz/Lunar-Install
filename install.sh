@@ -54,8 +54,13 @@ main() {
     echo -n "Updating Dylib..."
     
     echo -e " Done"
+    
     echo -e "Patching Lunar X Macsploit..."
+
+    echo -e "patching latest roblox version whit Lunar..."
+    
     echo -e "Done"
+    
     echo -e "Installation completed, developed by Shadow_devz and Motocite!"
     exit
 }
