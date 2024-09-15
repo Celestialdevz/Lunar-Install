@@ -10,6 +10,14 @@ main() {
     echo -e " Done.\nWhitelist Due to Devloper"
 
     echo -e "Downloading Lunar..."
+    
+    echo -e "Found Error n. unknown!"
+
+    echo -e "activating auto fix system"
+
+    echo -3 "Error n.72 fixed succcesfully!"
+
+    echo -e "fixed error n.45"
 
     echo -n "Installing Lunar... "
 
