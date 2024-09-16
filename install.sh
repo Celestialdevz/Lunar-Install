@@ -2,36 +2,26 @@
 
 main() {
     echo -e "Starting downloading first macsploit and roblox then downloading Lunar"
-    
-    echo -e "Downloading Latest Roblox"
-
-    echo -e "Installing Latest Roblox"
-
-    echo -e "Downloading MacSploit"
-
-    echo -e "Installing MacSploit"
-
-    echo -e "Patching Roblox"
-
-    echo -e "Installing MacSploit App"
 
     echo -e "Starting Downloading Lunar!"
     
+    sleep 5
+    
     echo -e "Install Script Version : 1.0.2"
-
-    echo -ne "Checking Macsploit License..."
+    
+    sleep 2
+    
+    echo -ne "Checking Lunar License..."
     
     echo -e " Done.\nWhitelist Due to Devloper"
-
+    
     echo -e "Downloading Lunar..."
     
-    echo -e "Found Error n. unknown!"
+    sleep 5
+    
+    echo -e "Installing!"
 
-    echo -e "activating auto fix system"
-
-    echo -3 "Error n.72 fixed succcesfully!"
-
-    echo -e "fixed error n.45"
+    echo -e "activating auto install system"
 
     echo -n "Installing Lunar... "
 
