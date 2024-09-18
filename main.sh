@@ -1,6 +1,8 @@
 #!/bin/bash
 
 main() {
+    clear
+    
     echo -e "Welcome to Lunar downloading and updating system"
 
     echo -e "Starting Downloading Lunar!"
