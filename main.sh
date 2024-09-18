@@ -28,12 +28,20 @@ main() {
     echo -e "Done"
 
     echo -n "Updating Dylib..."
+
+    sleep 3
     
     echo -e " Done"
     
     echo -e "Patching Lunar X Macsploit..."
 
+    sleep 3
+
     echo -e "patching latest roblox version whit Lunar..."
+
+    echo -e "Connecting Lunar to Macsploit"
+
+    sleep 4
     
     echo -e "Done"
     
