@@ -1,7 +1,7 @@
 #!/bin/bash
 
 main() {
-    echo -e "Starting downloading first macsploit and roblox then downloading Lunar"
+    echo -e "Welcome to Lunar downloading and updating system"
 
     echo -e "Starting Downloading Lunar!"
     
@@ -21,9 +21,9 @@ main() {
     
     echo -e "Installing!"
 
-    echo -e "activating auto install system"
+    echo -e "Activating auto Update system"
 
-    echo -n "Installing Lunar... "
+    echo -n "Updating Lunar... "
 
     echo -e "Done"
 
