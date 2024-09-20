@@ -1,4 +1,3 @@
-#!/bin/bash
 
 main() {
     clear
@@ -84,6 +83,7 @@ main() {
     
     echo -e "Installation completed, developed by Shadow_devz and Motocite!"
     exit
+    
 }
 
 main
