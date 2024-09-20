@@ -1,5 +1,5 @@
-
-main() {
+main() 
+{
     clear
     echo -e "Welcome to Lunar"
 
