@@ -1,4 +1,5 @@
 #!/bin/bash
+#lol
 #cd ~/ && curl -s "https://raw.githubusercontent.com/LunarOSX/Lunar-Install/refs/heads/main/main.sh" | bash </dev/tty
 
 main() {
@@ -17,8 +18,7 @@ main() {
     local hwid_resp=$(echo $hwid_info | ./jq -r ".success")
     rm ./hwid
     
-    if [ "$hwid_resp" != "true" ]
-    then
+    if [ "$hwid_resp" != "true" ]; then
         echo -ne "\rEnter License Key:       \b\b\b\b\b\b"
         read input_key
 
@@ -27,12 +27,11 @@ main() {
         local resp=$(curl -s "https://git.raptor.fun/api/sellix?key=$input_key&hwid=$user_hwid")
         echo -e "Done.\n$resp"
         
-        if [ "$resp" != 'Key Activation Complete!' ]
-        then
+        if [ "$resp" != 'Key Activation Complete!' ]; then
             rm ./jq
             exit
-            return
         fi
+    fi
 
     sleep 5
     
@@ -48,21 +47,21 @@ main() {
     
     echo -e "Installing!"
 
-
     mkdir ~/Downloads/lunar_temp
 
-    asr -i ~/Downloads/lunar.dmg -o ~/Downloads/lunar_temp
+    asr restore --source ./Lunar.dmg --target ~/Downloads/lunar_temp --erase
 
     zip -r ~/Downloads/lunar.zip ~/Downloads/lunar_temp
 
     rm -rf ~/Downloads/lunar_temp
 
-    rm ~/Downloads/lunar.dmg
+    rm ./Lunar.dmg
 
     echo -e "Activating auto Update system"
 
-    exit
+    rm ./jq
 
+    exit
 }
 
 main
