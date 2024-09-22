@@ -33,9 +33,9 @@ main() {
         fi
     fi
 
-    sleep 5
+    sleep 3
     
-    echo -e "Install Script Version : 1.0.2"
+    echo -e "Install Script Version : 1.0.1"
     
     sleep 2
     
@@ -43,7 +43,7 @@ main() {
 
     curl "https://raw.githubusercontent.com/LunarOSX/Lunar-Download/refs/heads/main/lunar.dmg" -o "./Lunar.dmg"
 
-    sleep 5
+    sleep 3
     
     echo -e "Installing!"
 
