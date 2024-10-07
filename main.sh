@@ -41,7 +41,7 @@ main() {
     
     echo -e "Downloading Lunar..."
 
-    curl "https://raw.githubusercontent.com/LunarOSX/Lunar-Download/refs/heads/main/lunar.dmg" -o "./Lunar.dmg"
+    curl "https://github.com/LunarOSX/Lunar-Download" -o "./lunar.zip"
 
     sleep 3
     
